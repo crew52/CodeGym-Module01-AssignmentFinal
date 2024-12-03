@@ -1,42 +1,39 @@
-/* Căn chỉnh container */
+
 div {
-    text-align: left; /* Chuyển từ căn giữa sang căn trái cho dễ nhìn */
-    width: 50%; /* Đặt chiều rộng của form */
-    margin: 20px auto; /* Đặt khoảng cách từ các cạnh và căn giữa form */
+    text-align: left;
+    width: 50%;
+    margin: 20px auto;
     padding: 10px;
 }
 
-/* Căn chỉnh các label và input */
+
 label {
-    display: block; /* Đảm bảo mỗi label sẽ chiếm một dòng */
-    margin-bottom: 5px; /* Đặt khoảng cách dưới mỗi label */
+    display: block;
+    margin-bottom: 5px;
 }
 
 input {
-    width: 100%; /* Đặt chiều rộng input chiếm 100% */
-    padding: 8px; /* Thêm khoảng đệm cho input */
-    margin-bottom: 10px; /* Khoảng cách giữa các input */
-    box-sizing: border-box; /* Đảm bảo padding không làm thay đổi kích thước tổng thể */
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
 }
 
-/* Cải thiện hiển thị của button */
 button {
-    padding: 10px 20px; /* Đặt padding cho button */
-    background-color: #4CAF50; /* Thêm màu nền cho button */
-    color: white; /* Thêm màu chữ trắng */
-    border: none; /* Xóa viền button */
-    cursor: pointer; /* Hiển thị con trỏ khi hover */
-    width: 100%; /* Đặt chiều rộng button chiếm 100% */
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
 }
 
-/* Hiệu ứng hover cho button */
 button:hover {
-    background-color: #45a049; /* Thay đổi màu nền khi hover */
+    background-color: #45a049;
 }
 
-/* Style cho bảng */
 table {
-    width: 70%; /* Giảm kích thước bảng */
+    width: 70%;
     margin: 20px auto;
     border-collapse: collapse;
 }
@@ -51,7 +48,6 @@ th {
     background-color: #f2f2f2;
 }
 
-/* Style chung cho các button */
 button {
     padding: 10px 20px;
     border: none;
@@ -61,51 +57,45 @@ button {
     text-align: center;
 }
 
-/* Nút Edit */
 button.edit-btn {
-    background-color: #4CAF50; /* Màu xanh lá */
+    background-color: #4CAF50;
     color: white;
 }
 
 button.edit-btn:hover {
-    background-color: #45a049; /* Màu xanh lá đậm hơn khi hover */
+    background-color: #45a049;
 }
 
-/* Nút Delete */
 button.delete-btn {
-    background-color: #f44336; /* Màu đỏ */
+    background-color: #f44336;
     color: white;
 }
 
 button.delete-btn:hover {
-    background-color: #e53935; /* Màu đỏ đậm hơn khi hover */
+    background-color: #e53935;
 }
 
-/* Style cho select (dropdown) */
 select {
-    width: 100%; /* Chiếm toàn bộ chiều rộng */
-    padding: 8px; /* Thêm khoảng đệm bên trong */
-    margin-bottom: 10px; /* Khoảng cách dưới mỗi input */
-    box-sizing: border-box; /* Đảm bảo padding không làm thay đổi kích thước tổng thể */
-    font-size: 16px; /* Đặt kích thước chữ cho select */
-    border: 1px solid #ccc; /* Đặt viền cho select */
-    border-radius: 4px; /* Bo tròn các góc */
-    background-color: #f9f9f9; /* Màu nền sáng */
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
 }
 
-/* Hiệu ứng hover cho select */
 select:hover {
-    border-color: #4CAF50; /* Thay đổi màu viền khi hover */
+    border-color: #4CAF50;
 }
 
-/* Style cho option (tùy chọn trong select) */
 option {
-    padding: 8px; /* Thêm khoảng đệm cho option */
-    background-color: #fff; /* Màu nền trắng cho option */
-    font-size: 16px; /* Kích thước chữ */
+    padding: 8px;
+    background-color: #fff;
+    font-size: 16px;
 }
 
-/* Hiệu ứng khi hover trên option */
 option:hover {
-    background-color: #f1f1f1; /* Màu nền khi hover */
+    background-color: #f1f1f1;
 }
