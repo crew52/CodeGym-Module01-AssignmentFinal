@@ -1,4 +1,3 @@
-
 const arrSavingsBooks = [];
 let nextBookCode = 1;
 
@@ -71,6 +70,7 @@ function addNewSavingsBook() {
     document.getElementById('openingDate').value = "";
     document.getElementById('depositAmount').value = "";
 }
+
 function findSavingById(id) {
     return arrSavingsBooks.findIndex(product => product.id === id);
 }
